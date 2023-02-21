@@ -1,0 +1,16 @@
+import numpy as np
+n=np.array([[1,2],[3,4]])
+print(n)
+print("#######################")
+print(n-3)
+print("########################")
+a=np.array([[1,2],[3,4]])
+b=np.array([[5,6],[7,8]])
+print(a)
+print("##########################")
+print(b)
+print("########################")
+c=a+b
+print(c)
+print("#####################")
+print(c>8)

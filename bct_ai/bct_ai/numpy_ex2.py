@@ -1,0 +1,13 @@
+import numpy as np
+n1=np.arange(11,20,1)
+print(n1)
+print("####################")
+n2=np.arange(11,20,3)
+print(n2)
+print("########################")
+n3=np.arange(1,2,.3)
+print(n3)
+print("###########################")
+n4=np.arange(1,2,.01)
+print(n4)
+print("Size=",len(n4))

@@ -1,0 +1,17 @@
+import numpy as np
+n=np.arange(12)
+print(n)
+print("Size:",len(n))
+print("Dimension of n=",n.ndim)
+print("Shape of n=",n.shape)
+n1=n.reshape(3,4)
+print("##################")
+print(n1)
+print("Dimension of n1:",n1.ndim)
+print("Shape of n1:",n1.shape)
+print("####################")
+n2=n.reshape(3,4,1)
+print(n2)
+print("Dimension of n2:",n2.ndim)
+print("Shape of n2:",n2.shape)
+
