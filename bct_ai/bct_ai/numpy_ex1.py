@@ -14,4 +14,3 @@ n2=n.reshape(3,4,1)
 print(n2)
 print("Dimension of n2:",n2.ndim)
 print("Shape of n2:",n2.shape)
-
